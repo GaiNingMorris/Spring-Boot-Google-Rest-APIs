@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<title>Login</title>
+<link rel="stylesheet" type="text/css" href="/css/common.css" />
+</head>
+<body>
+	<form th:action="@{/getCityInfos}" method="post">
+		<div class="loginDiv">
+			<div>
+				<span class="error" th:text="${error}" ></span> 
+			</div>
+			<br />
+			<div> 
+				<span>zipcode: </span> 
+				<input id="zipCode" name="zipCode" type="text" placeholder="please input zipcode" /> 
+			</div>
+			<br />
+			<input type="submit" value="Submit" />
+		</div>
+	</form>
+	
+	<div class="cityInfosDiv" th:if="${cityInfos}" >
+		<div>
+			<span>City Name: </span> <span th:if="${cityInfos.cityName}" th:text="${cityInfos.cityName}" ></span>
+		</div>
+		<div>
+			<span>Temperature: </span> <span th:if="${cityInfos.temperature}" th:text="${cityInfos.temperature}" > </span>
+		</div>
+		<div>
+			<span>Timezone: </span> <span th:if="${cityInfos.timezone}" th:text="${cityInfos.timezone}" > </span>
+		</div>
+		<div>
+			<span>Elevation: </span> <span th:if="${cityInfos.elevation}" th:text="${cityInfos.elevation}" > </span>
+		</div>
+	</div>
+	
+</body>
+</html>

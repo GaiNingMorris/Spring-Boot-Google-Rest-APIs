@@ -1,0 +1,19 @@
+@charset "ISO-8859-1";
+
+.loginDiv {
+	margin-top: 20px;
+}
+
+.cityInfosDiv {
+    margin-top: 50px;
+}
+
+.cityInfosDiv div {
+	margin-top: 20px;
+}
+
+.error {
+	font-size: 16px; 
+	color: red;
+}
+

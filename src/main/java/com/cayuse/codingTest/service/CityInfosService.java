@@ -1,6 +1,6 @@
 package com.cayuse.codingTest.service;
 
-import com.cayuse.codingTest.domain.CityInfos;
+import com.cayuse.codingTest.model.CityInfos;
 
 public interface CityInfosService {
 

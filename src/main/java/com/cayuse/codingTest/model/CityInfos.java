@@ -1,4 +1,4 @@
-package com.cayuse.codingTest.domain;
+package com.cayuse.codingTest.model;
 
 import java.io.Serializable;
 

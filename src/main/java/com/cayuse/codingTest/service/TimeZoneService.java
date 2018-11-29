@@ -1,6 +1,6 @@
 package com.cayuse.codingTest.service;
 
-import com.cayuse.codingTest.domain.TimeZoneResponse;
+import com.cayuse.codingTest.model.TimeZoneResponse;
 
 public interface TimeZoneService {
 

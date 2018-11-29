@@ -7,8 +7,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 
-import com.cayuse.codingTest.domain.CityInfos;
-import com.cayuse.codingTest.domain.Utils;
+import com.cayuse.codingTest.model.CityInfos;
+import com.cayuse.codingTest.model.Utils;
 import com.cayuse.codingTest.service.CityInfosService;
 
 /**

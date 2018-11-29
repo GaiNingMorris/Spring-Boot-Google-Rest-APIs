@@ -1,6 +1,6 @@
 package com.cayuse.codingTest.service;
 
-import com.cayuse.codingTest.domain.WeatherResponse;
+import com.cayuse.codingTest.model.WeatherResponse;
 
 public interface WeatherService {
 

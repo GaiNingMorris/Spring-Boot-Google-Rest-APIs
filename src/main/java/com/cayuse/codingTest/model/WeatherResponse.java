@@ -1,12 +1,15 @@
-package com.cayuse.codingTest.domain;
+package com.cayuse.codingTest.model;
 
 import java.io.Serializable;
+
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 /**
  * Weather Response
  * @author ningm
  *
  */
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class WeatherResponse implements Serializable {
 
 	private static final long serialVersionUID = 382293836115586348L;

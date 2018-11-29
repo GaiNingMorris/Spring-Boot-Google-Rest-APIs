@@ -3,9 +3,9 @@ package com.cayuse.codingTest.service.impl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.cayuse.codingTest.domain.CityInfos;
-import com.cayuse.codingTest.domain.TimeZoneResponse;
-import com.cayuse.codingTest.domain.WeatherResponse;
+import com.cayuse.codingTest.model.CityInfos;
+import com.cayuse.codingTest.model.TimeZoneResponse;
+import com.cayuse.codingTest.model.WeatherResponse;
 import com.cayuse.codingTest.service.CityInfosService;
 import com.cayuse.codingTest.service.ElevationService;
 import com.cayuse.codingTest.service.TimeZoneService;

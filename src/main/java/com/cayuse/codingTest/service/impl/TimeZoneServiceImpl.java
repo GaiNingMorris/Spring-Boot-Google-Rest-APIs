@@ -4,8 +4,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
-import com.cayuse.codingTest.domain.TimeZoneResponse;
-import com.cayuse.codingTest.domain.Utils;
+import com.cayuse.codingTest.model.TimeZoneResponse;
+import com.cayuse.codingTest.model.Utils;
 import com.cayuse.codingTest.service.TimeZoneService;
 
 /**
